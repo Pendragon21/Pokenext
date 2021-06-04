@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kanto Pokedex
 
-## Getting Started
+> Aplication made with Nextjs using the swr librarie
 
-First, run the development server:
+[![Author](https://img.shields.io/badge/author-Pendragon21-F65555?style=flat-square)](https://github.com/Pendragon21)
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center">
+   <a href="https://pendrapokenext.vercel.app/">Vercel SSG aplication</a>
+</p>
+
+# :dart: Goals
+
+* Use swr features
+* apply the SSG concepts
+* finally build a Pokedex by my own
+
+# :construction_worker: Installation
+
+**You need to install [Node.js](https://pt-br.reactjs.org/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
+
+```
+  git clone https://github.com/Pendragon21/Pokenext
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+  git clone git@github.com:Pendragon21/Pokenext.git
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Install dependencies**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+  yarn install
+```
 
-## Learn More
+# :runner: Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Run the following command in order to start the application in a development environment:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+  yarn dev
+```
+# :closed_book: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Released in 2021.
+This project is under the [MIT license]().
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made by [Rafael](https://github.com/Pendragon21) 💜
